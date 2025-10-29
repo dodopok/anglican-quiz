@@ -5,13 +5,8 @@ import pt from '../locales/pt.json';
 
 const translations = { en, pt };
 
-const API_KEY = process.env.API_KEY;
-
-if (!API_KEY) {
-  console.warn("API_KEY environment variable not set. Using a placeholder. Functionality will be limited.");
-}
-
-const ai = new GoogleGenAI({ apiKey: API_KEY });
+// Per Gemini API guidelines, instantiate GoogleGenAI with the API key directly from process.env.
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 export async function getHistoricalFigure(scores: Scores, lang: 'en' | 'pt'): Promise<HistoricalFigure> {
   const t = translations[lang];

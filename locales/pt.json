@@ -1,6 +1,5 @@
-
 {
-  "app_title": "Quiz de Valores Anglicanos",
+  "app_title": "Teste do Espectro Anglicano",
   "app_subtitle": "Descubra seu alinhamento teológico.",
   "app_footer": "Inspirado no tripé anglicano: Escritura, Tradição e Razão.",
   "lang_en": "EN",
@@ -220,8 +219,15 @@
     "copy_button": "Copiar",
     "share_on_twitter": "Compartilhar no X",
     "share_on_facebook": "Compartilhar no Facebook",
-    "share_text": "Fiz o Quiz de Valores Anglicanos e sou um(a) \"{{title}}\"! Descubra seu alinhamento teológico:",
-    "copy_text": "Fiz o Quiz de Valores Anglicanos e sou um(a) \"{{title}}\"! Descubra seu alinhamento teológico: {{url}}"
+    "share_text": "Fiz o Teste do Espectro Anglicano e sou um(a) \"{{title}}\"! Descubra seu alinhamento teológico:",
+    "copy_text": "Fiz o Teste do Espectro Anglicano e sou um(a) \"{{title}}\"! Descubra seu alinhamento teológico: {{url}}"
+  },
+  "book_ad": {
+    "title": "Gostou do resultado? Continue a jornada.",
+    "description": "Aprofunde seu conhecimento no Anglicanismo com o best-seller 'O Caminho Anglicano', um guia prático e essencial.",
+    "button_physical": "Comprar Livro Físico",
+    "button_ebook": "Comprar E-book",
+    "alt_text": "Capa do livro O Caminho Anglicano"
   },
   "ternary_plot": {
     "catholic": "Católico",

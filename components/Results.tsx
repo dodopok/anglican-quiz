@@ -4,11 +4,56 @@ import type { Scores, HistoricalFigure } from '../types';
 import TernaryPlot from './TernaryPlot';
 import Spinner from './Spinner';
 import { useI18n } from '../hooks/useI18n';
+import { bookCoverBase64 } from '../assets/bookCover';
 
 interface ResultsProps {
   scores: Scores;
   onRestart: () => void;
 }
+
+// FIX: Defined BookAd component here to avoid creating a new file and resolve dependency.
+const BookAd: React.FC = () => {
+  const { t } = useI18n();
+
+  return (
+    <div className="mt-8 w-full bg-stone-100 p-6 rounded-lg border border-stone-200 no-print">
+      <div className="flex flex-col md:flex-row items-center gap-6">
+        <div className="flex-shrink-0">
+          <a href="https://loja.uiclap.com/titulo/ua123620" target="_blank" rel="noopener noreferrer">
+            <img 
+              src={bookCoverBase64} 
+              alt={t('book_ad.alt_text')} 
+              className="rounded-md shadow-lg w-32 md:w-40 h-auto transform hover:scale-105 transition-transform duration-300" 
+            />
+          </a>
+        </div>
+        <div className="text-center md:text-left">
+          <h3 className="text-xl font-bold text-gray-800">{t('book_ad.title')}</h3>
+          <p className="mt-2 text-gray-600">{t('book_ad.description')}</p>
+          <div className="mt-4 flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+            <a 
+              href="https://loja.uiclap.com/titulo/ua123620" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-5 py-2.5 bg-gray-800 text-white font-bold text-sm rounded-full hover:bg-gray-900 transition-colors duration-300"
+            >
+              {t('book_ad.button_physical')}
+            </a>
+            <a 
+              href="https://amzn.to/4o86ifQ" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-5 py-2.5 bg-yellow-500 text-gray-900 font-bold text-sm rounded-full hover:bg-yellow-600 transition-colors duration-300"
+            >
+              {t('book_ad.button_ebook')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 
 const Results: React.FC<ResultsProps> = ({ scores, onRestart }) => {
   const { t, lang, titleGrid } = useI18n();
@@ -131,6 +176,8 @@ const Results: React.FC<ResultsProps> = ({ scores, onRestart }) => {
           </div>
         )}
       </div>
+
+      {lang === 'pt' && <BookAd />}
 
       <div className="mt-8 flex flex-col items-center gap-6 w-full no-print">
         <button

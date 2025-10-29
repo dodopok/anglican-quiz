@@ -1,6 +1,6 @@
 
 {
-  "app_title": "Anglican Values Quiz",
+  "app_title": "Anglican Spectrum Test",
   "app_subtitle": "Discover your theological alignment.",
   "app_footer": "Inspired by the Anglican Three-Legged Stool: Scripture, Tradition, and Reason.",
   "lang_en": "EN",
@@ -220,8 +220,8 @@
     "copy_button": "Copy",
     "share_on_twitter": "Share on X",
     "share_on_facebook": "Share on Facebook",
-    "share_text": "I took the Anglican Values Quiz and I'm a \"{{title}}\"! Find out your theological alignment:",
-    "copy_text": "I took the Anglican Values Quiz and I'm a \"{{title}}\"! Find out your theological alignment: {{url}}"
+    "share_text": "I took the Anglican Spectrum Test and I'm a \"{{title}}\"! Find out your theological alignment:",
+    "copy_text": "I took the Anglican Spectrum Test and I'm a \"{{title}}\"! Find out your theological alignment: {{url}}"
   },
   "ternary_plot": {
     "catholic": "Catholic",
