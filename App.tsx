@@ -5,6 +5,7 @@ import Quiz from './components/Quiz';
 import Results from './components/Results';
 import LanguageSwitcher from './components/LanguageSwitcher';
 import { useI18n } from './hooks/useI18n';
+import { Analytics } from "@vercel/analytics/next"
 
 // Fisher-Yates shuffle algorithm to randomize array elements
 function shuffleArray<T>(array: T[]): T[] {
@@ -99,6 +100,7 @@ function App() {
        <footer className="text-center mt-6 text-gray-500 text-sm no-print">
         <p>{t('app_footer')}</p>
       </footer>
+      <Analytics/>
     </div>
   );
 }
