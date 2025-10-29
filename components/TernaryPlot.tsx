@@ -8,7 +8,8 @@ interface TernaryPlotProps {
 
 const TernaryPlot: React.FC<TernaryPlotProps> = ({ scores }) => {
   const { t } = useI18n();
-  const width = 300;
+  // Slightly reduce the size of the triangle to create more space for labels
+  const width = 280;
   const height = (Math.sqrt(3) / 2) * width;
   const total = 48;
 
@@ -29,9 +30,10 @@ const TernaryPlot: React.FC<TernaryPlotProps> = ({ scores }) => {
   
   const polygonPoints = `${vertices.red.x},${vertices.red.y} ${vertices.blue.x},${vertices.blue.y} ${vertices.yellow.x},${vertices.yellow.y}`;
 
+  // Expand the viewBox to give labels more room, preventing them from being cut off.
   return (
     <div className="flex flex-col items-center">
-      <svg viewBox={`-85 -30 ${width + 170} ${height + 70}`} className="w-full h-auto max-w-sm">
+      <svg viewBox={`-100 -40 ${width + 200} ${height + 90}`} className="w-full h-auto max-w-sm">
         <defs>
             {/* Gradients for color mixing from each corner */}
             <linearGradient id="red-grad" x1="0.5" y1="0" x2="0.5" y2="1">
@@ -76,14 +78,14 @@ const TernaryPlot: React.FC<TernaryPlotProps> = ({ scores }) => {
 
         <circle cx={cx} cy={cy} r="6" className="fill-gray-900" stroke="white" strokeWidth="2" />
 
-        {/* Increased spacing for labels to prevent clipping */}
-        <text x={vertices.red.x} y={-12} textAnchor="middle" className="font-bold text-sm fill-red-600">
+        {/* Labels with increased font size and adjusted positions for readability */}
+        <text x={vertices.red.x} y={-20} textAnchor="middle" className="font-bold text-base fill-red-600">
             {t('ternary_plot.catholic')}
         </text>
-        <text x={vertices.blue.x - 30} y={height + 20} textAnchor="end" className="font-bold text-sm fill-blue-600">
+        <text x={vertices.blue.x - 20} y={height + 30} textAnchor="end" className="font-bold text-base fill-blue-600">
             {t('ternary_plot.protestant')}
         </text>
-        <text x={vertices.yellow.x + 30} y={height + 20} textAnchor="start" className="font-bold text-sm fill-yellow-600">
+        <text x={vertices.yellow.x + 20} y={height + 30} textAnchor="start" className="font-bold text-base fill-yellow-600">
             {t('ternary_plot.liberal')}
         </text>
       </svg>
