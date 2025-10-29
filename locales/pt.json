@@ -1,0 +1,230 @@
+
+{
+  "app_title": "Quiz de Valores Anglicanos",
+  "app_subtitle": "Descubra seu alinhamento teológico.",
+  "app_footer": "Inspirado no tripé anglicano: Escritura, Tradição e Razão.",
+  "lang_en": "EN",
+  "lang_pt": "PT",
+  "quiz": {
+    "question_of_total": "Pergunta {{current}} de {{total}}",
+    "questions": [
+      {
+        "id": 1,
+        "text": "A autoridade da Igreja deriva principalmente de...",
+        "options": [
+          { "text": "Sucessão apostólica e sagrada tradição.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "A consciência e a razão do indivíduo.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "A Palavra de Deus inerrante na Escritura.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "Um equilíbrio entre Escritura, Tradição e Razão.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "A Escritura como autoridade máxima, interpretada com a orientação da tradição e da razão.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "A Eucaristia é melhor entendida como...",
+        "options": [
+          { "text": "A Presença Real do Corpo e Sangue de Cristo.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "Uma refeição comunitária simbolizando comunhão e inclusão.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "Um memorial do sacrifício expiatório de Cristo (Zwingliano).", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "Uma presença espiritual, um mistério a ser abraçado.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Uma verdadeira presença espiritual de Cristo, recebida pela fé (visão 'recepcionista').", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Em relação à liturgia, eu prefiro...",
+        "options": [
+          { "text": "Rituais elaborados, incenso e vestimentas ('cheiros e sinos').", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "Linguagem contemporânea, inovadora e formas flexíveis.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "Um serviço simples, focado na Escritura, como a Oração Matutina.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "A linguagem e estrutura tradicionais do Livro de Oração Comum.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Uma liturgia digna que seja acessível e compreensível para os recém-chegados.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Os santos são...",
+        "options": [
+          { "text": "Intercessores no céu a serem venerados e a quem se pede oração.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "Figuras históricas inspiradoras, mas não objetos de devoção.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "Um conceito que distrai da mediação única de Cristo.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "Exemplos de fé cujas vidas devemos imitar.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Parte da 'grande nuvem de testemunhas' que nos inspiram e com quem estamos em comunhão.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "A salvação é alcançada através de...",
+        "options": [
+          { "text": "Fé, participação nos sacramentos e boas obras.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "Viver uma vida justa e trabalhar pela transformação social.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "Somente pela fé (Sola Fide) em Jesus Cristo.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "Uma jornada de fé, cujos detalhes são um mistério.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Fé em Cristo, que é expressa e se torna real através de uma vida de amor e boas obras.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "A Bíblia deve ser interpretada...",
+        "options": [
+          { "text": "Com a orientação da tradição da Igreja e do Magistério.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "Usando métodos críticos modernos e reconhecendo seus elementos humanos.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "Literalmente, como a palavra infalível e direta de Deus.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "Como a palavra de Deus, melhor compreendida através da oração, estudo e discussão comunitária.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Em oração pelo indivíduo, guiado pelo Espírito Santo.", "scores": { "catholic": 0, "liberal": 1, "protestant": 2 } }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Em questões de ética social, a Igreja deve...",
+        "options": [
+          { "text": "Sustentar verdades morais atemporais reveladas na tradição.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "Adaptar seus ensinamentos à luz de novas compreensões científicas e sociais.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "Aderir estritamente aos mandamentos morais explicitamente encontrados na Bíblia.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "Fomentar o diálogo e permitir uma diversidade de opiniões.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Aplicar os princípios cristãos centrais de amor e justiça às questões contemporâneas, mesmo que isso leve a novas conclusões.", "scores": { "catholic": 0, "liberal": 2, "protestant": 1 } }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "O papel dos bispos é...",
+        "options": [
+          { "text": "Governar a igreja como sucessores dos Apóstolos.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "Uma função administrativa que pode ser reformada ou reimaginada.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "Uma estrutura histórica, mas não essencial para uma igreja válida.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "Prover supervisão pastoral e manter a unidade.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Como um sinal de unidade e continuidade histórica, servindo como pastores e mestres principais.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Arte e beleza na arquitetura da igreja...",
+        "options": [
+          { "text": "São essenciais para glorificar a Deus e inspirar a adoração.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "Devem refletir a cultura e a criatividade da comunidade local.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "Podem ser uma fonte potencial de idolatria e devem ser mínimas.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "São agradáveis, mas secundárias à função do espaço.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Devem ser usadas para edificar os fiéis e ensinar a fé, mas com simplicidade para evitar distração.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Outras religiões mundiais...",
+        "options": [
+          { "text": "Podem conter elementos de verdade, mas a plenitude da verdade reside na Igreja.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "São caminhos válidos para o divino e devem ser engajadas abertamente.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "São caminhos falsos; a salvação é somente através de Jesus.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "São oportunidades para o diálogo inter-religioso e aprendizado mútuo.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Deus pode operar fora da Igreja visível, mas Cristo é a revelação única e completa de Deus.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Minha vida de oração está centrada em...",
+        "options": [
+          { "text": "O Ofício Divino, terço ou outras devoções formais.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "Meditação, mindfulness ou engajamento com o trabalho de justiça social.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "Oração espontânea e estudo bíblico pessoal.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "As orações estruturadas do Livro de Oração Comum.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Uma mistura de oração litúrgica (como o Ofício Divino) e oração pessoal e espontânea.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "O termo 'Católico' significa principalmente...",
+        "options": [
+          { "text": "Adesão à fé da Igreja una, santa, católica e apostólica.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "Universal, inclusivo e que abrange toda a humanidade.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "Um termo a ser visto com cautela devido à sua associação com Roma.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "Uma referência à Igreja antiga e indivisa.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "A igreja universal, que é 'reformada' e está em continuidade com os apóstolos, distinta da comunhão romana.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Confissão e Absolvição é...",
+        "options": [
+          { "text": "Um sacramento vital para o perdão dos pecados, idealmente com um sacerdote.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "Uma prática terapêutica, mas não um requisito para o perdão.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "Tratado diretamente entre o indivíduo e Deus.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "Realizado de forma significativa através da confissão geral no culto corporativo.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Suficiente na confissão geral, mas a confissão privada é um recurso valioso quando necessário.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "A missão primária da Igreja é...",
+        "options": [
+          { "text": "Administrar os sacramentos e trazer as pessoas para a fé apostólica.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "Ser uma voz para os marginalizados e desafiar sistemas injustos.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "Pregar o Evangelho e evangelizar o mundo para a conversão pessoal.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "Adorar a Deus и construir uma comunidade amorosa.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Proclamar as Boas Novas, ensinar, responder às necessidades, transformar a sociedade e proteger a criação (Cinco Marcas da Missão).", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Ao considerar a ordenação de mulheres, eu acredito que...",
+        "options": [
+          { "text": "É contrário à tradição apostólica e à Escritura.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "É uma questão de justiça e reflete a igualdade de todos em Cristo.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "É permissível se um corpo eclesiástico se sentir guiado pelo Espírito, mas não é obrigatório.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "É um desenvolvimento válido da tradição, embora eu respeite opiniões divergentes.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Embora a tradição seja apenas masculina, o Espírito pode estar fazendo algo novo em nosso tempo.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
+        ]
+      }
+    ]
+  },
+  "results": {
+    "title": "Seus Resultados",
+    "catholic_score": "Católico",
+    "liberal_score": "Liberal",
+    "protestant_score": "Protestante",
+    "your_title_is": "Seu Título É:",
+    "pure_title_template": "Um(a) {{noun}} Puro(a)",
+    "adjective_title_template": "Um(a) {{noun}} {{adjective}}",
+    "historical_figure_title": "Você pode se identificar com...",
+    "historical_figure_error": "Não foi possível buscar a figura histórica. Por favor, tente novamente mais tarde.",
+    "take_again_button": "Fazer Novamente",
+    "fallback_figure_name": "Richard Hooker",
+    "fallback_figure_explanation": "Não foi possível obter um resultado personalizado. Richard Hooker é um exemplo clássico da 'via media' (caminho do meio) anglicana, equilibrando Escritura, tradição e razão, tornando-o uma figura fundamental para muitas correntes do pensamento anglicano."
+  },
+  "ternary_plot": {
+    "catholic": "Católico",
+    "liberal": "Liberal",
+    "protestant": "Protestante"
+  },
+  "title_grid": {
+    "catholic": [
+      { "scoreMin": 38, "scoreMax": 45, "title": "Anglo-Papalista" },
+      { "scoreMin": 30, "scoreMax": 37, "title": "Alto Tractariano" },
+      { "scoreMin": 22, "scoreMax": 29, "title": "Puseyita" },
+      { "scoreMin": 13, "scoreMax": 21, "title": "Laudiano" },
+      { "scoreMin": 7, "scoreMax": 12, "title": "Litúrgico" },
+      { "scoreMin": 3, "scoreMax": 6, "title": "Esteticamente Inclinado" },
+      { "scoreMin": 0, "scoreMax": 2, "title": "Puramente-Inclinado" }
+    ],
+    "liberal": [
+      { "scoreMin": 38, "scoreMax": 45, "title": "Ultra-Liberal" },
+      { "scoreMin": 30, "scoreMax": 37, "title": "Teologicamente Liberal" },
+      { "scoreMin": 22, "scoreMax": 29, "title": "Progressista" },
+      { "scoreMin": 13, "scoreMax": 21, "title": "Cripto-Liberal" },
+      { "scoreMin": 7, "scoreMax": 12, "title": "Inovador" },
+      { "scoreMin": 3, "scoreMax": 6, "title": "Mente Aberta" },
+      { "scoreMin": 0, "scoreMax": 2, "title": "Puramente-Inclinado" }
+    ],
+    "protestant": [
+      { "scoreMin": 38, "scoreMax": 45, "title": "Evangélico" },
+      { "scoreMin": 30, "scoreMax": 37, "title": "Low Churchman" },
+      { "scoreMin": 22, "scoreMax": 29, "title": "Old High Churchman" },
+      { "scoreMin": 13, "scoreMax": 21, "title": "Apreciador do Sola-Fide" },
+      { "scoreMin": 7, "scoreMax": 12, "title": "Biblicamente Letrado" },
+      { "scoreMin": 3, "scoreMax": 6, "title": "Tendência Reformada" },
+      { "scoreMin": 0, "scoreMax": 2, "title": "Puramente-Inclinado" }
+    ]
+  },
+  "gemini_prompt": {
+    "main": "Com base nas seguintes pontuações de alinhamento teológico anglicano (de um total de 45), identifique uma figura histórica anglicana significativa (como um teólogo, bispo ou leigo importante) que incorpore um equilíbrio semelhante de visões.\n\nPontuações:\n- Católico: {{catholic}}\n- Protestante: {{protestant}}\n- Liberal: {{liberal}}\n\nForneça o nome da figura e uma breve explicação de um parágrafo (não mais que 4 frases) do porquê eles são uma boa combinação, focando em seu contexto histórico e contribuições teológicas. Responda em {{language}}.",
+    "language_name": "Português"
+  }
+}
