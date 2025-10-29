@@ -6,11 +6,12 @@ import { useI18n } from '../hooks/useI18n';
 interface QuizProps {
   question: Question;
   onAnswer: (scores: Scores) => void;
+  onBack: () => void;
   questionNumber: number;
   totalQuestions: number;
 }
 
-const Quiz: React.FC<QuizProps> = ({ question, onAnswer, questionNumber, totalQuestions }) => {
+const Quiz: React.FC<QuizProps> = ({ question, onAnswer, onBack, questionNumber, totalQuestions }) => {
   const { t } = useI18n();
   const progress = (questionNumber / totalQuestions) * 100;
 
@@ -35,6 +36,17 @@ const Quiz: React.FC<QuizProps> = ({ question, onAnswer, questionNumber, totalQu
             {option.text}
           </button>
         ))}
+      </div>
+
+      <div className="mt-8 w-full flex justify-center">
+        {questionNumber > 1 && (
+          <button
+            onClick={onBack}
+            className="px-6 py-2 bg-gray-200 text-gray-700 font-semibold rounded-full hover:bg-gray-300 transition-colors duration-200"
+          >
+            {t('quiz.back_button')}
+          </button>
+        )}
       </div>
     </div>
   );

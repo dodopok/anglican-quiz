@@ -22,6 +22,7 @@ function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [quizAttempt, setQuizAttempt] = useState(0); // Used to trigger re-shuffle on restart
+  const [answersHistory, setAnswersHistory] = useState<Scores[]>([]); // To track answers for the back button
 
   // Memoize the shuffled questions to prevent re-shuffling on every render.
   // It re-shuffles when the language changes or when a new quiz is started.
@@ -39,6 +40,7 @@ function App() {
       liberal: prevScores.liberal + answerScores.liberal,
       protestant: prevScores.protestant + answerScores.protestant,
     }));
+    setAnswersHistory(prevHistory => [...prevHistory, answerScores]);
 
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(prevIndex => prevIndex + 1);
@@ -47,11 +49,27 @@ function App() {
     }
   }, [currentQuestionIndex, questions.length]);
 
+  const handleBack = useCallback(() => {
+    if (currentQuestionIndex > 0) {
+      const lastAnswerScores = answersHistory[answersHistory.length - 1];
+      
+      setScores(prevScores => ({
+        catholic: prevScores.catholic - lastAnswerScores.catholic,
+        liberal: prevScores.liberal - lastAnswerScores.liberal,
+        protestant: prevScores.protestant - lastAnswerScores.protestant,
+      }));
+
+      setAnswersHistory(prevHistory => prevHistory.slice(0, -1));
+      setCurrentQuestionIndex(prevIndex => prevIndex - 1);
+    }
+  }, [currentQuestionIndex, answersHistory]);
+
   const handleRestart = useCallback(() => {
     setScores({ catholic: 0, liberal: 0, protestant: 0 });
     setCurrentQuestionIndex(0);
     setQuizCompleted(false);
     setQuizAttempt(prev => prev + 1); // Trigger a re-shuffle for the new quiz
+    setAnswersHistory([]);
   }, []);
 
   return (
@@ -69,6 +87,7 @@ function App() {
             <Quiz
               question={shuffledQuestions[currentQuestionIndex]}
               onAnswer={handleAnswer}
+              onBack={handleBack}
               questionNumber={currentQuestionIndex + 1}
               totalQuestions={questions.length}
             />

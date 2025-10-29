@@ -1,3 +1,4 @@
+
 {
   "app_title": "Anglican Values Quiz",
   "app_subtitle": "Discover your theological alignment.",
@@ -6,6 +7,7 @@
   "lang_pt": "PT",
   "quiz": {
     "question_of_total": "Question {{current}} of {{total}}",
+    "back_button": "Back",
     "questions": [
        {
         "id": 1,

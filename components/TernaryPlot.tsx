@@ -31,7 +31,7 @@ const TernaryPlot: React.FC<TernaryPlotProps> = ({ scores }) => {
 
   return (
     <div className="flex flex-col items-center">
-      <svg viewBox={`-70 -30 ${width + 140} ${height + 70}`} className="w-full h-auto max-w-sm">
+      <svg viewBox={`-85 -30 ${width + 170} ${height + 70}`} className="w-full h-auto max-w-sm">
         <defs>
             {/* Gradients for color mixing from each corner */}
             <linearGradient id="red-grad" x1="0.5" y1="0" x2="0.5" y2="1">
@@ -80,10 +80,10 @@ const TernaryPlot: React.FC<TernaryPlotProps> = ({ scores }) => {
         <text x={vertices.red.x} y={-12} textAnchor="middle" className="font-bold text-sm fill-red-600">
             {t('ternary_plot.catholic')}
         </text>
-        <text x={vertices.blue.x - 25} y={height + 20} textAnchor="end" className="font-bold text-sm fill-blue-600">
+        <text x={vertices.blue.x - 30} y={height + 20} textAnchor="end" className="font-bold text-sm fill-blue-600">
             {t('ternary_plot.protestant')}
         </text>
-        <text x={vertices.yellow.x + 25} y={height + 20} textAnchor="start" className="font-bold text-sm fill-yellow-600">
+        <text x={vertices.yellow.x + 30} y={height + 20} textAnchor="start" className="font-bold text-sm fill-yellow-600">
             {t('ternary_plot.liberal')}
         </text>
       </svg>
