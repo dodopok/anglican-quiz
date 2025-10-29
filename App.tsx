@@ -100,6 +100,16 @@ function App() {
        <footer className="text-center mt-6 text-gray-500 text-sm no-print">
         <p>{t('app_footer')}</p>
       </footer>
+      <div className="text-center mt-2 text-gray-500 text-xs no-print">
+        <a 
+          href="https://www.instagram.com/rev_douglasaraujo/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="underline hover:text-gray-700 transition-colors duration-200"
+        >
+          {t('creator_credit')}
+        </a>
+      </div>
       <Analytics/>
     </div>
   );
