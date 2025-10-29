@@ -26,20 +26,33 @@ const Results: React.FC<ResultsProps> = ({ scores, onRestart }) => {
   }, [titleGrid]);
 
   useEffect(() => {
+    let ignore = false;
+
     const fetchFigure = async () => {
       try {
         setIsLoading(true);
         setError(null);
         const result = await getHistoricalFigure(scores, lang);
-        setFigure(result);
+        if (!ignore) {
+            setFigure(result);
+        }
       } catch (err) {
-        setError(t('results.historical_figure_error'));
-        console.error(err);
+        if (!ignore) {
+            setError(t('results.historical_figure_error'));
+            console.error(err);
+        }
       } finally {
-        setIsLoading(false);
+        if (!ignore) {
+            setIsLoading(false);
+        }
       }
     };
+    
     fetchFigure();
+
+    return () => {
+      ignore = true;
+    };
   }, [scores, lang, t]);
   
   const generatedTitle = useMemo(() => {
