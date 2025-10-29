@@ -89,7 +89,7 @@
           { "text": "Aderir estritamente aos mandamentos morais explicitamente encontrados na Bíblia.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Fomentar o diálogo e permitir uma diversidade de opiniões.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
           { "text": "Aplicar os princípios cristãos centrais de amor e justiça às questões contemporâneas, mesmo que isso leve a novas conclusões.", "scores": { "catholic": 0, "liberal": 2, "protestant": 1 } },
-          { "text": "Com base na lei natural e no raciocínio moral universal, acessível a todas as pessoas de boa vontade.", "scores": { "catholic": 2, "liberal": 1, "protestant": 0 } }
+          { "text": "Crer com base na lei natural e no raciocínio moral universal, acessível a todas as pessoas de boa vontade.", "scores": { "catholic": 2, "liberal": 1, "protestant": 0 } }
         ]
       },
       {
@@ -100,7 +100,7 @@
           { "text": "Uma função administrativa que pode ser reformada ou reimaginada.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Uma estrutura histórica, mas não essencial para uma igreja válida.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Prover supervisão pastoral e manter a unidade.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Como um sinal de unidade e continuidade histórica, servindo como pastores e mestres principais.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "Ser um sinal de unidade e continuidade histórica, servindo como pastores e mestres principais.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
           { "text": "Ser servos dos servos de Deus, definidos principalmente pelo seu cuidado pastoral e disposição para sofrer pelo rebanho.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } }
         ]
       },
@@ -185,7 +185,7 @@
           { "text": "É permissível se um corpo eclesiástico se sentir guiado pelo Espírito, mas não é obrigatório.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "É um desenvolvimento válido da tradição, embora eu respeite opiniões divergentes.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
           { "text": "Embora a tradição seja apenas masculina, o Espírito pode estar fazendo algo novo em nosso tempo.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } },
-          { "text": "Uma questão secundária que infelizmente dividiu a igreja; a unidade é mais importante que uma decisão final.", "scores": { "catholic": 1, "liberal": 0, "protestant": 1 } }
+          { "text": "É uma questão secundária que infelizmente dividiu a igreja; a unidade é mais importante que uma decisão final.", "scores": { "catholic": 1, "liberal": 0, "protestant": 1 } }
         ]
       },
       {

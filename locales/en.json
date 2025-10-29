@@ -90,7 +90,7 @@
           { "text": "Adhere strictly to moral commands explicitly found in the Bible.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Foster dialogue and allow for a diversity of opinions.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
           { "text": "Apply core Christian principles of love and justice to contemporary issues, even if that leads to new conclusions.", "scores": { "catholic": 0, "liberal": 2, "protestant": 1 } },
-          { "text": "Based on natural law and universal moral reasoning, accessible to all people of goodwill.", "scores": { "catholic": 2, "liberal": 1, "protestant": 0 } }
+          { "text": "Be based on natural law and universal moral reasoning, accessible to all people of goodwill.", "scores": { "catholic": 2, "liberal": 1, "protestant": 0 } }
         ]
       },
       {
@@ -101,7 +101,7 @@
           { "text": "An administrative function that can be reformed or re-imagined.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "A historical structure, but not essential for a valid church.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "To provide pastoral oversight and maintain unity.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "As a sign of unity and historical continuity, serving as chief pastors and teachers.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "To be a sign of unity and historical continuity, serving as chief pastors and teachers.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
           { "text": "To be servants of the servants of God, primarily defined by their pastoral care and willingness to suffer for the flock.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } }
         ]
       },
