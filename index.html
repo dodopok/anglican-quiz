@@ -17,6 +17,49 @@
       h1, h2, h3, h4, h5, h6 {
         font-family: 'Lora', serif;
       }
+      @media print {
+        body {
+          -webkit-print-color-adjust: exact; /* For Chrome/Safari */
+          color-adjust: exact; /* Standard */
+        }
+        .no-print {
+          display: none !important;
+        }
+        body, #root {
+          background-color: white !important;
+          margin: 0;
+          padding: 0;
+        }
+        .main-container {
+          padding: 0 !important;
+          min-height: auto;
+        }
+        .content-card {
+           box-shadow: none !important;
+           border: 1px solid #ddd;
+           border-radius: 0;
+           padding: 2rem !important;
+           margin: 0;
+           width: 100%;
+           max-width: 100%;
+        }
+        /* Make score backgrounds white but keep borders for clarity */
+        div[class*="bg-red-100"] { background-color: #fef2f2 !important; }
+        div[class*="bg-yellow-100"] { background-color: #fefce8 !important; }
+        div[class*="bg-blue-100"] { background-color: #eff6ff !important; }
+        
+        div[class*="border-red-500"] { border-color: #ef4444 !important; }
+        div[class*="border-yellow-500"] { border-color: #eab308 !important; }
+        div[class*="border-blue-500"] { border-color: #3b82f6 !important; }
+        
+        /* Ensure text colors are dark for printing */
+        * {
+            color: black !important;
+        }
+        h1, h2, h3, h4, p {
+            color: #111827 !important;
+        }
+      }
     </style>
   <script type="importmap">
 {

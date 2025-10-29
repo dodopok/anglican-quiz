@@ -10,7 +10,7 @@ const LanguageSwitcher: React.FC = () => {
   const inactiveClasses = "bg-gray-200 text-gray-700 hover:bg-gray-300";
 
   return (
-    <div className="absolute top-4 right-4 flex space-x-2">
+    <div className="absolute top-4 right-4 flex space-x-2 no-print">
       <button 
         onClick={() => setLang('en')} 
         className={`${commonClasses} ${lang === 'en' ? activeClasses : inactiveClasses}`}

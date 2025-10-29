@@ -172,6 +172,17 @@
           { "text": "É um desenvolvimento válido da tradição, embora eu respeite opiniões divergentes.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
           { "text": "Embora a tradição seja apenas masculina, o Espírito pode estar fazendo algo novo em nosso tempo.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
         ]
+      },
+      {
+        "id": 16,
+        "text": "As vestes clericais para a Eucaristia deveriam idealmente consistir em...",
+        "options": [
+          { "text": "O conjunto completo: amito, alva, cíngulo, manípulo, estola e casula. Significam a sacralidade do ofício.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "As vestes são opcionais e podem ser adaptadas à cultura local, ou dispensadas, para promover um sentido de inclusão.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "Nenhuma veste é necessária além do que é exigido pela decência; elas podem criar uma barreira entre o clero e os leigos.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "Uma simples alva e estola é suficiente. É antigo, ecumênico e evita ritualismo excessivo.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "O tradicional Hábito Coral Anglicano: uma batina, sobrepeliz e uma estola ou 'tippet'. É digno e historicamente fundamentado.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+        ]
       }
     ]
   },
@@ -187,7 +198,11 @@
     "historical_figure_error": "Não foi possível buscar a figura histórica. Por favor, tente novamente mais tarde.",
     "take_again_button": "Fazer Novamente",
     "fallback_figure_name": "Richard Hooker",
-    "fallback_figure_explanation": "Não foi possível obter um resultado personalizado. Richard Hooker é um exemplo clássico da 'via media' (caminho do meio) anglicana, equilibrando Escritura, tradição e razão, tornando-o uma figura fundamental para muitas correntes do pensamento anglicano."
+    "fallback_figure_explanation": "Não foi possível obter um resultado personalizado. Richard Hooker é um exemplo clássico da 'via media' (caminho do meio) anglicana, equilibrando Escritura, tradição e razão, tornando-o uma figura fundamental para muitas correntes do pensamento anglicano.",
+    "share_button": "Compartilhar",
+    "copied_button": "Copiado!",
+    "share_title": "Meu Resultado no Quiz de Valores Anglicanos",
+    "share_text": "Eu sou \"{{title}}\" de acordo com o Quiz de Valores Anglicanos! Descubra seu alinhamento teológico."
   },
   "ternary_plot": {
     "catholic": "Católico",

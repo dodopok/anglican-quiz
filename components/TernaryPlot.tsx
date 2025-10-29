@@ -11,7 +11,7 @@ const TernaryPlot: React.FC<TernaryPlotProps> = ({ scores }) => {
   const { t } = useI18n();
   const width = 300;
   const height = (Math.sqrt(3) / 2) * width;
-  const total = 45;
+  const total = 48;
 
   const { catholic: red, liberal: yellow, protestant: blue } = scores;
 

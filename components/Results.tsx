@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useEffect, useState, useMemo, useCallback } from 'react';
 import { getHistoricalFigure } from '../services/geminiService';
 import type { Scores, HistoricalFigure } from '../types';
 import TernaryPlot from './TernaryPlot';
@@ -16,6 +16,7 @@ const Results: React.FC<ResultsProps> = ({ scores, onRestart }) => {
   const [figure, setFigure] = useState<HistoricalFigure | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [copied, setCopied] = useState(false);
 
   const getTitle = useMemo(() => {
     return (category: 'catholic' | 'liberal' | 'protestant', score: number): string => {
@@ -56,6 +57,32 @@ const Results: React.FC<ResultsProps> = ({ scores, onRestart }) => {
     return t('results.adjective_title_template', { adjective, noun });
   }, [scores, getTitle, t]);
 
+  const handleShare = useCallback(async () => {
+    const shareText = t('results.share_text', { title: generatedTitle });
+    const shareUrl = window.location.href;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: t('results.share_title'),
+          text: shareText,
+          url: shareUrl,
+        });
+      } catch (error) {
+        console.log('Error sharing:', error);
+      }
+    } else {
+      // Fallback for browsers that don't support Web Share API
+      try {
+        await navigator.clipboard.writeText(`${shareText}\n${shareUrl}`);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      } catch (err) {
+        console.error('Failed to copy text: ', err);
+      }
+    }
+  }, [generatedTitle, t]);
+
 
   return (
     <div className="flex flex-col items-center animate-fade-in">
@@ -95,12 +122,20 @@ const Results: React.FC<ResultsProps> = ({ scores, onRestart }) => {
         )}
       </div>
 
-      <button
-        onClick={onRestart}
-        className="mt-8 px-8 py-3 bg-purple-600 text-white font-bold rounded-full hover:bg-purple-700 transition-colors duration-300"
-      >
-        {t('results.take_again_button')}
-      </button>
+      <div className="mt-8 flex flex-col sm:flex-row gap-4 no-print">
+        <button
+          onClick={onRestart}
+          className="px-8 py-3 bg-purple-600 text-white font-bold rounded-full hover:bg-purple-700 transition-colors duration-300 w-full sm:w-auto"
+        >
+          {t('results.take_again_button')}
+        </button>
+        <button
+          onClick={handleShare}
+          className="px-8 py-3 bg-gray-700 text-white font-bold rounded-full hover:bg-gray-800 transition-colors duration-300 w-full sm:w-auto"
+        >
+          {copied ? t('results.copied_button') : t('results.share_button')}
+        </button>
+      </div>
     </div>
   );
 };

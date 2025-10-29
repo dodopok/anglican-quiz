@@ -172,6 +172,17 @@
           { "text": "It is a valid development of tradition, though I respect differing views.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
           { "text": "While tradition is male-only, the Spirit may be doing a new thing in our time.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
         ]
+      },
+      {
+        "id": 16,
+        "text": "Clerical vestments for the Eucharist should ideally consist of...",
+        "options": [
+          { "text": "The full works: amice, alb, girdle, maniple, stole, and chasuble. They signify the sacredness of the office.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
+          { "text": "Vestments are optional and can be adapted to the local culture, or dispensed with, to foster a sense of inclusion.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
+          { "text": "No vestments are necessary beyond what is required for decency; they can create a barrier between clergy and laity.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "A simple alb and stole is sufficient. It is ancient, ecumenical, and avoids excessive ritualism.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "The traditional Anglican Choir Habit: a cassock, surplice, and a tippet or stole. It is dignified and historically grounded.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+        ]
       }
     ]
   },
@@ -187,7 +198,11 @@
     "historical_figure_error": "Could not fetch historical figure. Please try again later.",
     "take_again_button": "Take Again",
     "fallback_figure_name": "Richard Hooker",
-    "fallback_figure_explanation": "Could not fetch a personalized result. Richard Hooker is a classic example of the Anglican 'via media' (middle way), balancing Scripture, tradition, and reason, making him a foundational figure for many strands of Anglican thought."
+    "fallback_figure_explanation": "Could not fetch a personalized result. Richard Hooker is a classic example of the Anglican 'via media' (middle way), balancing Scripture, tradition, and reason, making him a foundational figure for many strands of Anglican thought.",
+    "share_button": "Share Results",
+    "copied_button": "Copied!",
+    "share_title": "My Anglican Values Quiz Result",
+    "share_text": "I'm a \"{{title}}\" according to the Anglican Values Quiz! Find out your theological alignment."
   },
   "ternary_plot": {
     "catholic": "Catholic",
