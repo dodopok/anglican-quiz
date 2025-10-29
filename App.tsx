@@ -5,7 +5,7 @@ import Quiz from './components/Quiz';
 import Results from './components/Results';
 import LanguageSwitcher from './components/LanguageSwitcher';
 import { useI18n } from './hooks/useI18n';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 // Fisher-Yates shuffle algorithm to randomize array elements
 function shuffleArray<T>(array: T[]): T[] {
