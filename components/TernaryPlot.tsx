@@ -27,47 +27,63 @@ const TernaryPlot: React.FC<TernaryPlotProps> = ({ scores }) => {
   const cx = b * vertices.blue.x + y * vertices.yellow.x + r * vertices.red.x;
   const cy = b * vertices.blue.y + y * vertices.yellow.y + r * vertices.red.y;
   
+  const polygonPoints = `${vertices.red.x},${vertices.red.y} ${vertices.blue.x},${vertices.blue.y} ${vertices.yellow.x},${vertices.yellow.y}`;
+
   return (
     <div className="flex flex-col items-center">
-      <svg viewBox={`-50 -30 ${width + 100} ${height + 70}`} className="w-full h-auto max-w-sm">
+      <svg viewBox={`-70 -30 ${width + 140} ${height + 70}`} className="w-full h-auto max-w-sm">
         <defs>
-            <linearGradient id="red-to-mix" x1="0.5" y1="0" x2="0.5" y2="1">
+            {/* Gradients for color mixing from each corner */}
+            <linearGradient id="red-grad" x1="0.5" y1="0" x2="0.5" y2="1">
               <stop offset="0%" stopColor="#ef4444" />
-              <stop offset="100%" stopColor="#a855f7" />
+              <stop offset="100%" stopColor="#ef4444" stopOpacity="0" />
             </linearGradient>
-            <linearGradient id="blue-to-mix" x1="0" y1="1" x2="1" y2="0.5">
-              <stop offset="0%" stopColor="#3b82f6" />
-              <stop offset="100%" stopColor="#a855f7" />
+            <linearGradient id="blue-grad" x1="0" y1="1" x2="0.75" y2="0.5">
+               <stop offset="0%" stopColor="#3b82f6" />
+               <stop offset="100%" stopColor="#3b82f6" stopOpacity="0" />
             </linearGradient>
-            <linearGradient id="yellow-to-mix" x1="1" y1="1" x2="0" y2="0.5">
-              <stop offset="0%" stopColor="#eab308" />
-              <stop offset="100%" stopColor="#a855f7" />
+             <linearGradient id="yellow-grad" x1="1" y1="1" x2="0.25" y2="0.5">
+               <stop offset="0%" stopColor="#eab308" />
+               <stop offset="100%" stopColor="#eab308" stopOpacity="0" />
             </linearGradient>
 
             <pattern id="triangles" patternUnits="userSpaceOnUse" width="20" height="17.32" >
-                <path d="M0 0 L10 17.32 L20 0 Z" fill="rgba(0,0,0,0.05)" stroke="rgba(0,0,0,0.1)" strokeWidth="0.5"/>
-                <path d="M10 17.32 L20 17.32 L20 0 Z" fill="rgba(0,0,0,0.05)" stroke="rgba(0,0,0,0.1)" strokeWidth="0.5"/>
+                {/* Lighter pattern for visibility on the new colorful background */}
+                <path d="M0 0 L10 17.32 L20 0 Z" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.1)" strokeWidth="0.5"/>
+                <path d="M10 17.32 L20 17.32 L20 0 Z" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.1)" strokeWidth="0.5"/>
             </pattern>
+            
+            <clipPath id="triangle-clip">
+              <polygon points={polygonPoints} />
+            </clipPath>
         </defs>
 
+        <g clipPath="url(#triangle-clip)">
+          {/* Black base for screen blending to work */}
+          <rect x={0} y={0} width={width} height={height} fill="black" />
+          
+          {/* Gradient overlays with screen blend mode for additive color mixing */}
+          <rect x={0} y={0} width={width} height={height} fill="url(#red-grad)" style={{ mixBlendMode: 'screen' }} />
+          <rect x={0} y={0} width={width} height={height} fill="url(#blue-grad)" style={{ mixBlendMode: 'screen' }} />
+          <rect x={0} y={0} width={width} height={height} fill="url(#yellow-grad)" style={{ mixBlendMode: 'screen' }} />
+        </g>
+
+        {/* Pattern on top */}
         <polygon
-          points={`${vertices.red.x},${vertices.red.y} ${vertices.blue.x},${vertices.blue.y} ${vertices.yellow.x},${vertices.yellow.y}`}
-          className="fill-purple-200"
-        />
-        <polygon
-          points={`${vertices.red.x},${vertices.red.y} ${vertices.blue.x},${vertices.blue.y} ${vertices.yellow.x},${vertices.yellow.y}`}
+          points={polygonPoints}
           fill="url(#triangles)"
         />
 
         <circle cx={cx} cy={cy} r="6" className="fill-gray-900" stroke="white" strokeWidth="2" />
 
+        {/* Increased spacing for labels to prevent clipping */}
         <text x={vertices.red.x} y={-12} textAnchor="middle" className="font-bold text-sm fill-red-600">
             {t('ternary_plot.catholic')}
         </text>
-        <text x={vertices.blue.x - 12} y={height + 20} textAnchor="end" className="font-bold text-sm fill-blue-600">
+        <text x={vertices.blue.x - 25} y={height + 20} textAnchor="end" className="font-bold text-sm fill-blue-600">
             {t('ternary_plot.protestant')}
         </text>
-        <text x={vertices.yellow.x + 12} y={height + 20} textAnchor="start" className="font-bold text-sm fill-yellow-600">
+        <text x={vertices.yellow.x + 25} y={height + 20} textAnchor="start" className="font-bold text-sm fill-yellow-600">
             {t('ternary_plot.liberal')}
         </text>
       </svg>
