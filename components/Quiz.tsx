@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React, { useEffect } from 'react';
 import type { Question, Scores } from '../types';
 import { useI18n } from '../hooks/useI18n';
 
@@ -14,6 +13,15 @@ interface QuizProps {
 const Quiz: React.FC<QuizProps> = ({ question, onAnswer, onBack, questionNumber, totalQuestions }) => {
   const { t } = useI18n();
   const progress = (questionNumber / totalQuestions) * 100;
+
+  useEffect(() => {
+    // Quando uma nova pergunta é renderizada, remove o foco do elemento ativo.
+    // Isso impede que o navegador foque automaticamente em um novo botão
+    // na mesma posição daquele que acabou de ser clicado.
+    if (document.activeElement && document.activeElement instanceof HTMLElement) {
+      document.activeElement.blur();
+    }
+  }, [question]);
 
   return (
     <div className="flex flex-col items-center">
