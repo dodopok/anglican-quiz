@@ -1,4 +1,3 @@
-
 {
   "app_title": "Quiz de Valores Anglicanos",
   "app_subtitle": "Descubra seu alinhamento teológico.",
@@ -16,7 +15,8 @@
           { "text": "A consciência e a razão do indivíduo.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "A Palavra de Deus inerrante na Escritura.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Um equilíbrio entre Escritura, Tradição e Razão.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "A Escritura como autoridade máxima, interpretada com a orientação da tradição e da razão.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } }
+          { "text": "A Escritura como autoridade máxima, interpretada com a orientação da tradição e da razão.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } },
+          { "text": "O consenso da comunidade de fiéis, enquanto busca a orientação do Espírito Santo.", "scores": { "catholic": 0, "liberal": 2, "protestant": 1 } }
         ]
       },
       {
@@ -27,7 +27,8 @@
           { "text": "Uma refeição comunitária simbolizando comunhão e inclusão.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Um memorial do sacrifício expiatório de Cristo (Zwingliano).", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Uma presença espiritual, um mistério a ser abraçado.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Uma verdadeira presença espiritual de Cristo, recebida pela fé (visão 'recepcionista').", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "Uma verdadeira presença espiritual de Cristo, recebida pela fé (visão 'recepcionista').", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "Uma antecipação do banquete celestial, um sinal de esperança futura.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
         ]
       },
       {
@@ -38,7 +39,8 @@
           { "text": "Linguagem contemporânea, inovadora e formas flexíveis.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Um serviço simples, focado na Escritura, como a Oração Matutina.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "A linguagem e estrutura tradicionais do Livro de Oração Comum.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Uma liturgia digna que seja acessível e compreensível para os recém-chegados.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
+          { "text": "Uma liturgia digna que seja acessível e compreensível para os recém-chegados.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } },
+          { "text": "Um serviço quieto e contemplativo com espaço para silêncio e reflexão pessoal (ex: estilo Taizé).", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
         ]
       },
       {
@@ -49,7 +51,8 @@
           { "text": "Figuras históricas inspiradoras, mas não objetos de devoção.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Um conceito que distrai da mediação única de Cristo.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Exemplos de fé cujas vidas devemos imitar.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Parte da 'grande nuvem de testemunhas' que nos inspiram e com quem estamos em comunhão.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "Parte da 'grande nuvem de testemunhas' que nos inspiram e com quem estamos em comunhão.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "Nossos ancestrais na fé, cujas histórias fazem parte da nossa memória familiar coletiva.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } }
         ]
       },
       {
@@ -60,7 +63,8 @@
           { "text": "Viver uma vida justa e trabalhar pela transformação social.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Somente pela fé (Sola Fide) em Jesus Cristo.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Uma jornada de fé, cujos detalhes são um mistério.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Fé em Cristo, que é expressa e se torna real através de uma vida de amor e boas obras.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "Fé em Cristo, que é expressa e se torna real através de uma vida de amor e boas obras.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "Um processo de 'theosis' ou deificação, tornando-se participantes da natureza divina através da graça.", "scores": { "catholic": 2, "liberal": 1, "protestant": 0 } }
         ]
       },
       {
@@ -71,7 +75,8 @@
           { "text": "Usando métodos críticos modernos e reconhecendo seus elementos humanos.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Literalmente, como a palavra infalível e direta de Deus.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Como a palavra de Deus, melhor compreendida através da oração, estudo e discussão comunitária.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Em oração pelo indivíduo, guiado pelo Espírito Santo.", "scores": { "catholic": 0, "liberal": 1, "protestant": 2 } }
+          { "text": "Em oração pelo indivíduo, guiado pelo Espírito Santo.", "scores": { "catholic": 0, "liberal": 1, "protestant": 2 } },
+          { "text": "Como uma grande narrativa abrangente da relação de Deus com a criação, na qual se deve entrar imaginativamente.", "scores": { "catholic": 0, "liberal": 2, "protestant": 1 } }
         ]
       },
       {
@@ -82,7 +87,8 @@
           { "text": "Adaptar seus ensinamentos à luz de novas compreensões científicas e sociais.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Aderir estritamente aos mandamentos morais explicitamente encontrados na Bíblia.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Fomentar o diálogo e permitir uma diversidade de opiniões.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Aplicar os princípios cristãos centrais de amor e justiça às questões contemporâneas, mesmo que isso leve a novas conclusões.", "scores": { "catholic": 0, "liberal": 2, "protestant": 1 } }
+          { "text": "Aplicar os princípios cristãos centrais de amor e justiça às questões contemporâneas, mesmo que isso leve a novas conclusões.", "scores": { "catholic": 0, "liberal": 2, "protestant": 1 } },
+          { "text": "Com base na lei natural e no raciocínio moral universal, acessível a todas as pessoas de boa vontade.", "scores": { "catholic": 2, "liberal": 1, "protestant": 0 } }
         ]
       },
       {
@@ -93,7 +99,8 @@
           { "text": "Uma função administrativa que pode ser reformada ou reimaginada.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Uma estrutura histórica, mas não essencial para uma igreja válida.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Prover supervisão pastoral e manter a unidade.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Como um sinal de unidade e continuidade histórica, servindo como pastores e mestres principais.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "Como um sinal de unidade e continuidade histórica, servindo como pastores e mestres principais.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "Ser servos dos servos de Deus, definidos principalmente pelo seu cuidado pastoral e disposição para sofrer pelo rebanho.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } }
         ]
       },
       {
@@ -104,7 +111,8 @@
           { "text": "Devem refletir a cultura e a criatividade da comunidade local.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Podem ser uma fonte potencial de idolatria e devem ser mínimas.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "São agradáveis, mas secundárias à função do espaço.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Devem ser usadas para edificar os fiéis e ensinar a fé, mas com simplicidade para evitar distração.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "Devem ser usadas para edificar os fiéis e ensinar a fé, mas com simplicidade para evitar distração.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "Deve ser sustentável, usando materiais e luz naturais, para refletir a criação de Deus e nosso chamado à mordomia.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } }
         ]
       },
       {
@@ -115,7 +123,8 @@
           { "text": "São caminhos válidos para o divino e devem ser engajadas abertamente.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "São caminhos falsos; a salvação é somente através de Jesus.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "São oportunidades para o diálogo inter-religioso e aprendizado mútuo.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Deus pode operar fora da Igreja visível, mas Cristo é a revelação única e completa de Deus.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } }
+          { "text": "Deus pode operar fora da Igreja visível, mas Cristo é a revelação única e completa de Deus.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } },
+          { "text": "Pessoas de outras fés podem ser salvas através de Cristo, mesmo que não o conheçam pelo nome ('cristãos anônimos').", "scores": { "catholic": 2, "liberal": 1, "protestant": 0 } }
         ]
       },
       {
@@ -126,7 +135,8 @@
           { "text": "Meditação, mindfulness ou engajamento com o trabalho de justiça social.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Oração espontânea e estudo bíblico pessoal.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "As orações estruturadas do Livro de Oração Comum.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Uma mistura de oração litúrgica (como o Ofício Divino) e oração pessoal e espontânea.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "Uma mistura de oração litúrgica (como o Ofício Divino) e oração pessoal e espontânea.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "Práticas corporais como caminhar por um labirinto, peregrinação ou usar contas de oração.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
         ]
       },
       {
@@ -137,7 +147,8 @@
           { "text": "Universal, inclusivo e que abrange toda a humanidade.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Um termo a ser visto com cautela devido à sua associação com Roma.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Uma referência à Igreja antiga e indivisa.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "A igreja universal, que é 'reformada' e está em continuidade com os apóstolos, distinta da comunhão romana.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } }
+          { "text": "A igreja universal, que é 'reformada' e está em continuidade com os apóstolos, distinta da comunhão romana.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } },
+          { "text": "Um compromisso com os pobres e marginalizados, refletindo o amor universal de Deus por todos.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } }
         ]
       },
       {
@@ -148,7 +159,8 @@
           { "text": "Uma prática terapêutica, mas não um requisito para o perdão.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Tratado diretamente entre o indivíduo e Deus.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Realizado de forma significativa através da confissão geral no culto corporativo.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Suficiente na confissão geral, mas a confissão privada é um recurso valioso quando necessário.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "Suficiente na confissão geral, mas a confissão privada é um recurso valioso quando necessário.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "Uma prática corporativa onde a comunidade confessa seu papel no pecado sistêmico e busca reconciliação.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } }
         ]
       },
       {
@@ -157,9 +169,10 @@
         "options": [
           { "text": "Administrar os sacramentos e trazer as pessoas para a fé apostólica.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
           { "text": "Ser uma voz para os marginalizados e desafiar sistemas injustos.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
-          { "text": "Pregar o Evangelho e evangelizar o mundo para a conversão pessoal.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
-          { "text": "Adorar a Deus и construir uma comunidade amorosa.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Proclamar as Boas Novas, ensinar, responder às necessidades, transformar a sociedade e proteger a criação (Cinco Marcas da Missão).", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } }
+          { "text": "Pregar o Evangelho e evangelizar o mundo para la conversão pessoal.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "Adorar a Deus e construir uma comunidade amorosa.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Proclamar as Boas Novas, ensinar, responder às necessidades, transformar a sociedade e proteger a criação (Cinco Marcas da Missão).", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "Construir a 'Comunidade Amada' — uma sociedade baseada na justiça, igualdade de oportunidades e amor ao próximo.", "scores": { "catholic": 0, "liberal": 2, "protestant": 1 } }
         ]
       },
       {
@@ -170,7 +183,8 @@
           { "text": "É uma questão de justiça e reflete a igualdade de todos em Cristo.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "É permissível se um corpo eclesiástico se sentir guiado pelo Espírito, mas não é obrigatório.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "É um desenvolvimento válido da tradição, embora eu respeite opiniões divergentes.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Embora a tradição seja apenas masculina, o Espírito pode estar fazendo algo novo em nosso tempo.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
+          { "text": "Embora a tradição seja apenas masculina, o Espírito pode estar fazendo algo novo em nosso tempo.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } },
+          { "text": "Uma questão secundária que infelizmente dividiu a igreja; a unidade é mais importante que uma decisão final.", "scores": { "catholic": 1, "liberal": 0, "protestant": 1 } }
         ]
       },
       {
@@ -181,7 +195,8 @@
           { "text": "As vestes são opcionais e podem ser adaptadas à cultura local, ou dispensadas, para promover um sentido de inclusão.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Nenhuma veste é necessária além do que é exigido pela decência; elas podem criar uma barreira entre o clero e os leigos.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Uma simples alva e estola é suficiente. É antigo, ecumênico e evita ritualismo excessivo.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "O tradicional Hábito Coral Anglicano: uma batina, sobrepeliz e uma estola ou 'tippet'. É digno e historicamente fundamentado.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "O tradicional Hábito Coral Anglicano: uma batina, sobrepeliz e uma estola ou 'tippet'. É digno e historicamente fundamentado.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "Um simples terno ou colarinho clerical com roupas de rua. O objetivo é ser acessível e profissional.", "scores": { "catholic": 0, "liberal": 1, "protestant": 2 } }
         ]
       }
     ]
@@ -199,10 +214,12 @@
     "take_again_button": "Fazer Novamente",
     "fallback_figure_name": "Richard Hooker",
     "fallback_figure_explanation": "Não foi possível obter um resultado personalizado. Richard Hooker é um exemplo clássico da 'via media' (caminho do meio) anglicana, equilibrando Escritura, tradição e razão, tornando-o uma figura fundamental para muitas correntes do pensamento anglicano.",
-    "share_button": "Compartilhar",
     "copied_button": "Copiado!",
-    "share_title": "Meu Resultado no Quiz de Valores Anglicanos",
-    "share_text": "Eu sou \"{{title}}\" de acordo com o Quiz de Valores Anglicanos! Descubra seu alinhamento teológico."
+    "copy_button": "Copiar",
+    "share_on_twitter": "Compartilhar no X",
+    "share_on_facebook": "Compartilhar no Facebook",
+    "share_text": "Fiz o Quiz de Valores Anglicanos e sou um(a) \"{{title}}\"! Descubra seu alinhamento teológico:",
+    "copy_text": "Fiz o Quiz de Valores Anglicanos e sou um(a) \"{{title}}\"! Descubra seu alinhamento teológico: {{url}}"
   },
   "ternary_plot": {
     "catholic": "Católico",
@@ -211,35 +228,35 @@
   },
   "title_grid": {
     "catholic": [
-      { "scoreMin": 38, "scoreMax": 45, "title": "Anglo-Papalista" },
-      { "scoreMin": 30, "scoreMax": 37, "title": "Alto Tractariano" },
-      { "scoreMin": 22, "scoreMax": 29, "title": "Puseyita" },
-      { "scoreMin": 13, "scoreMax": 21, "title": "Laudiano" },
-      { "scoreMin": 7, "scoreMax": 12, "title": "Litúrgico" },
-      { "scoreMin": 3, "scoreMax": 6, "title": "Esteticamente Inclinado" },
-      { "scoreMin": 0, "scoreMax": 2, "title": "Puramente-Inclinado" }
+      { "scoreMin": 41, "scoreMax": 48, "title": "Anglo-Papalista" },
+      { "scoreMin": 32, "scoreMax": 40, "title": "Alto Tractariano" },
+      { "scoreMin": 24, "scoreMax": 31, "title": "Puseyita" },
+      { "scoreMin": 14, "scoreMax": 23, "title": "Laudiano" },
+      { "scoreMin": 8, "scoreMax": 13, "title": "Litúrgico" },
+      { "scoreMin": 4, "scoreMax": 7, "title": "Esteticamente Inclinado" },
+      { "scoreMin": 0, "scoreMax": 3, "title": "Puramente-Inclinado" }
     ],
     "liberal": [
-      { "scoreMin": 38, "scoreMax": 45, "title": "Ultra-Liberal" },
-      { "scoreMin": 30, "scoreMax": 37, "title": "Teologicamente Liberal" },
-      { "scoreMin": 22, "scoreMax": 29, "title": "Progressista" },
-      { "scoreMin": 13, "scoreMax": 21, "title": "Cripto-Liberal" },
-      { "scoreMin": 7, "scoreMax": 12, "title": "Inovador" },
-      { "scoreMin": 3, "scoreMax": 6, "title": "Mente Aberta" },
-      { "scoreMin": 0, "scoreMax": 2, "title": "Puramente-Inclinado" }
+      { "scoreMin": 41, "scoreMax": 48, "title": "Ultra-Liberal" },
+      { "scoreMin": 32, "scoreMax": 40, "title": "Teologicamente Liberal" },
+      { "scoreMin": 24, "scoreMax": 31, "title": "Progressista" },
+      { "scoreMin": 14, "scoreMax": 23, "title": "Cripto-Liberal" },
+      { "scoreMin": 8, "scoreMax": 13, "title": "Inovador" },
+      { "scoreMin": 4, "scoreMax": 7, "title": "Mente Aberta" },
+      { "scoreMin": 0, "scoreMax": 3, "title": "Puramente-Inclinado" }
     ],
     "protestant": [
-      { "scoreMin": 38, "scoreMax": 45, "title": "Evangélico" },
-      { "scoreMin": 30, "scoreMax": 37, "title": "Low Churchman" },
-      { "scoreMin": 22, "scoreMax": 29, "title": "Old High Churchman" },
-      { "scoreMin": 13, "scoreMax": 21, "title": "Apreciador do Sola-Fide" },
-      { "scoreMin": 7, "scoreMax": 12, "title": "Biblicamente Letrado" },
-      { "scoreMin": 3, "scoreMax": 6, "title": "Tendência Reformada" },
-      { "scoreMin": 0, "scoreMax": 2, "title": "Puramente-Inclinado" }
+      { "scoreMin": 41, "scoreMax": 48, "title": "Evangélico" },
+      { "scoreMin": 32, "scoreMax": 40, "title": "Low Churchman" },
+      { "scoreMin": 24, "scoreMax": 31, "title": "Old High Churchman" },
+      { "scoreMin": 14, "scoreMax": 23, "title": "Apreciador do Sola-Fide" },
+      { "scoreMin": 8, "scoreMax": 13, "title": "Biblicamente Letrado" },
+      { "scoreMin": 4, "scoreMax": 7, "title": "Tendência Reformada" },
+      { "scoreMin": 0, "scoreMax": 3, "title": "Puramente-Inclinado" }
     ]
   },
   "gemini_prompt": {
-    "main": "Com base nas seguintes pontuações de alinhamento teológico anglicano (de um total de 45), identifique uma figura histórica anglicana significativa (como um teólogo, bispo ou leigo importante) que incorpore um equilíbrio semelhante de visões.\n\nPontuações:\n- Católico: {{catholic}}\n- Protestante: {{protestant}}\n- Liberal: {{liberal}}\n\nForneça o nome da figura e uma breve explicação de um parágrafo (não mais que 4 frases) do porquê eles são uma boa combinação, focando em seu contexto histórico e contribuições teológicas. Responda em {{language}}.",
+    "main": "Com base nas seguintes pontuações de alinhamento teológico anglicano (de um total de 48), identifique uma figura histórica anglicana significativa (como um teólogo, bispo ou leigo importante) que incorpore um equilíbrio semelhante de visões.\n\nPontuações:\n- Católico: {{catholic}}\n- Protestante: {{protestant}}\n- Liberal: {{liberal}}\n\nForneça o nome da figura e uma breve explicação de um parágrafo (não mais que 4 frases) do porquê eles são uma boa combinação, focando em seu contexto histórico e contribuições teológicas. Responda em {{language}}.",
     "language_name": "Português"
   }
 }

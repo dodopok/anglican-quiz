@@ -1,4 +1,3 @@
-
 {
   "app_title": "Anglican Values Quiz",
   "app_subtitle": "Discover your theological alignment.",
@@ -16,7 +15,8 @@
           { "text": "The individual's conscience and reason.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "The inerrant Word of God in Scripture.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "A balance of Scripture, Tradition, and Reason.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Scripture as the highest authority, interpreted with the guidance of tradition and reason.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } }
+          { "text": "Scripture as the highest authority, interpreted with the guidance of tradition and reason.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } },
+          { "text": "The consensus of the worshipping community, as it seeks the Holy Spirit's guidance.", "scores": { "catholic": 0, "liberal": 2, "protestant": 1 } }
         ]
       },
       {
@@ -27,7 +27,8 @@
           { "text": "A communal meal symbolizing fellowship and inclusion.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "A memorial of Christ's atoning sacrifice (Zwinglian).", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "A spiritual presence, a mystery to be embraced.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "A true spiritual presence of Christ, received by faith (a 'receptionist' view).", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "A true spiritual presence of Christ, received by faith (a 'receptionist' view).", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "A foretaste of the heavenly banquet, a sign of future hope.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
         ]
       },
       {
@@ -38,7 +39,8 @@
           { "text": "Innovative, contemporary language and flexible forms.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "A simple, Scripture-focused service like Morning Prayer.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "The traditional language and structure of the Book of Common Prayer.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "A dignified liturgy that is accessible and understandable to newcomers.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
+          { "text": "A dignified liturgy that is accessible and understandable to newcomers.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } },
+          { "text": "A quiet, contemplative service with space for silence and personal reflection (e.g., Taizé style).", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
         ]
       },
       {
@@ -49,7 +51,8 @@
           { "text": "Inspiring historical figures, but not objects of devotion.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "A concept that distracts from the sole mediatorship of Christ.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Exemplars of faith whose lives we should emulate.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Part of the 'great cloud of witnesses' who inspire us and with whom we are in communion.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "Part of the 'great cloud of witnesses' who inspire us and with whom we are in communion.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "Our ancestors in faith, whose stories are part of our collective family memory.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } }
         ]
       },
       {
@@ -60,7 +63,8 @@
           { "text": "Living a just life and working for social transformation.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Faith alone (Sola Fide) in Jesus Christ.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "A journey of faith, the details of which are a mystery.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Faith in Christ, which is expressed and made real through a life of love and good works.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "Faith in Christ, which is expressed and made real through a life of love and good works.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "A process of 'theosis' or deification, becoming partakers of the divine nature through grace.", "scores": { "catholic": 2, "liberal": 1, "protestant": 0 } }
         ]
       },
       {
@@ -71,7 +75,8 @@
           { "text": "Using modern critical methods and acknowledging its human elements.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Literally, as the infallible and direct word of God.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "As God's word, best understood through prayer, scholarship, and community discussion.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Prayerfully by the individual, guided by the Holy Spirit.", "scores": { "catholic": 0, "liberal": 1, "protestant": 2 } }
+          { "text": "Prayerfully by the individual, guided by the Holy Spirit.", "scores": { "catholic": 0, "liberal": 1, "protestant": 2 } },
+          { "text": "As a grand, overarching narrative of God's relationship with creation, to be entered into imaginatively.", "scores": { "catholic": 0, "liberal": 2, "protestant": 1 } }
         ]
       },
       {
@@ -82,7 +87,8 @@
           { "text": "Adapt its teachings in light of new scientific and social understanding.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Adhere strictly to moral commands explicitly found in the Bible.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Foster dialogue and allow for a diversity of opinions.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Apply core Christian principles of love and justice to contemporary issues, even if that leads to new conclusions.", "scores": { "catholic": 0, "liberal": 2, "protestant": 1 } }
+          { "text": "Apply core Christian principles of love and justice to contemporary issues, even if that leads to new conclusions.", "scores": { "catholic": 0, "liberal": 2, "protestant": 1 } },
+          { "text": "Based on natural law and universal moral reasoning, accessible to all people of goodwill.", "scores": { "catholic": 2, "liberal": 1, "protestant": 0 } }
         ]
       },
       {
@@ -93,7 +99,8 @@
           { "text": "An administrative function that can be reformed or re-imagined.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "A historical structure, but not essential for a valid church.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "To provide pastoral oversight and maintain unity.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "As a sign of unity and historical continuity, serving as chief pastors and teachers.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "As a sign of unity and historical continuity, serving as chief pastors and teachers.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "To be servants of the servants of God, primarily defined by their pastoral care and willingness to suffer for the flock.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } }
         ]
       },
       {
@@ -104,7 +111,8 @@
           { "text": "Should reflect the culture and creativity of the local community.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Can be a potential source of idolatry and should be minimal.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Are nice but secondary to the function of the space.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Should be used to edify the faithful and teach the faith, but with simplicity to avoid distraction.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "Should be used to edify the faithful and teach the faith, but with simplicity to avoid distraction.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "Should be sustainable, using natural materials and light, to reflect God's creation and our call to stewardship.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } }
         ]
       },
       {
@@ -115,7 +123,8 @@
           { "text": "Are valid paths to the divine and should be engaged with openly.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Are false paths; salvation is only through Jesus.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Are opportunities for interfaith dialogue and mutual learning.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "God can work outside the visible Church, but Christ is the unique and full revelation of God.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } }
+          { "text": "God can work outside the visible Church, but Christ is the unique and full revelation of God.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } },
+          { "text": "People of other faiths can be saved through Christ, even if they don't know him by name ('anonymous Christians').", "scores": { "catholic": 2, "liberal": 1, "protestant": 0 } }
         ]
       },
       {
@@ -126,7 +135,8 @@
           { "text": "Meditation, mindfulness, or engagement with social justice work.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Extemporaneous prayer and personal Bible study.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "The structured prayers of the Book of Common Prayer.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "A mix of liturgical prayer (like the Daily Office) and personal, spontaneous prayer.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "A mix of liturgical prayer (like the Daily Office) and personal, spontaneous prayer.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "Embodied practices like walking a labyrinth, pilgrimage, or using prayer beads.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
         ]
       },
       {
@@ -137,7 +147,8 @@
           { "text": "Universal, inclusive, and embracing of all humanity.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "A term to be cautious of due to its association with Rome.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "A reference to the ancient, undivided Church.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "The universal church, which is 'reformed' and stands in continuity with the apostles, distinct from the Roman communion.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } }
+          { "text": "The universal church, which is 'reformed' and stands in continuity with the apostles, distinct from the Roman communion.", "scores": { "catholic": 1, "liberal": 0, "protestant": 2 } },
+          { "text": "A commitment to the poor and marginalized, reflecting God's universal love for all.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } }
         ]
       },
       {
@@ -148,7 +159,8 @@
           { "text": "A therapeutic practice, but not a requirement for forgiveness.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "Handled directly between the individual and God.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Meaningfully done through the general confession in corporate worship.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "Sufficient in the general confession, but private confession is a valuable resource when needed.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "Sufficient in the general confession, but private confession is a valuable resource when needed.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "A corporate practice where the community confesses its role in systemic sin and seeks reconciliation.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } }
         ]
       },
       {
@@ -159,7 +171,8 @@
           { "text": "To be a voice for the marginalized and challenge unjust systems.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "To preach the Gospel and evangelize the world for personal conversion.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "To worship God and build a loving community.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "To proclaim the Good News, teach, respond to need, transform society, and safeguard creation (Five Marks of Mission).", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } }
+          { "text": "To proclaim the Good News, teach, respond to need, transform society, and safeguard creation (Five Marks of Mission).", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
+          { "text": "To build the 'Beloved Community'—a society based on justice, equal opportunity, and love of one's fellow human beings.", "scores": { "catholic": 0, "liberal": 2, "protestant": 1 } }
         ]
       },
       {
@@ -170,7 +183,8 @@
           { "text": "It is a matter of justice and reflects the equality of all in Christ.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "It is permissible if a church body feels led by the Spirit, but not mandated.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "It is a valid development of tradition, though I respect differing views.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "While tradition is male-only, the Spirit may be doing a new thing in our time.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
+          { "text": "While tradition is male-only, the Spirit may be doing a new thing in our time.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } },
+          { "text": "A secondary issue that has unfortunately divided the church; unity is more important than a final decision.", "scores": { "catholic": 1, "liberal": 0, "protestant": 1 } }
         ]
       },
       {
@@ -181,7 +195,8 @@
           { "text": "Vestments are optional and can be adapted to the local culture, or dispensed with, to foster a sense of inclusion.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
           { "text": "No vestments are necessary beyond what is required for decency; they can create a barrier between clergy and laity.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "A simple alb and stole is sufficient. It is ancient, ecumenical, and avoids excessive ritualism.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
-          { "text": "The traditional Anglican Choir Habit: a cassock, surplice, and a tippet or stole. It is dignified and historically grounded.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } }
+          { "text": "The traditional Anglican Choir Habit: a cassock, surplice, and a tippet or stole. It is dignified and historically grounded.", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
+          { "text": "A simple business suit or clerical collar with street clothes. The goal is to be approachable and professional.", "scores": { "catholic": 0, "liberal": 1, "protestant": 2 } }
         ]
       }
     ]
@@ -199,10 +214,12 @@
     "take_again_button": "Take Again",
     "fallback_figure_name": "Richard Hooker",
     "fallback_figure_explanation": "Could not fetch a personalized result. Richard Hooker is a classic example of the Anglican 'via media' (middle way), balancing Scripture, tradition, and reason, making him a foundational figure for many strands of Anglican thought.",
-    "share_button": "Share Results",
     "copied_button": "Copied!",
-    "share_title": "My Anglican Values Quiz Result",
-    "share_text": "I'm a \"{{title}}\" according to the Anglican Values Quiz! Find out your theological alignment."
+    "copy_button": "Copy",
+    "share_on_twitter": "Share on X",
+    "share_on_facebook": "Share on Facebook",
+    "share_text": "I took the Anglican Values Quiz and I'm a \"{{title}}\"! Find out your theological alignment:",
+    "copy_text": "I took the Anglican Values Quiz and I'm a \"{{title}}\"! Find out your theological alignment: {{url}}"
   },
   "ternary_plot": {
     "catholic": "Catholic",
@@ -211,35 +228,35 @@
   },
   "title_grid": {
     "catholic": [
-      { "scoreMin": 38, "scoreMax": 45, "title": "Anglo-Papalist" },
-      { "scoreMin": 30, "scoreMax": 37, "title": "High Tractarian" },
-      { "scoreMin": 22, "scoreMax": 29, "title": "Puseyite" },
-      { "scoreMin": 13, "scoreMax": 21, "title": "Laudian" },
-      { "scoreMin": 7, "scoreMax": 12, "title": "Liturgical" },
-      { "scoreMin": 3, "scoreMax": 6, "title": "Aesthetically-Minded" },
-      { "scoreMin": 0, "scoreMax": 2, "title": "Purely-Inclined" }
+      { "scoreMin": 41, "scoreMax": 48, "title": "Anglo-Papalist" },
+      { "scoreMin": 32, "scoreMax": 40, "title": "High Tractarian" },
+      { "scoreMin": 24, "scoreMax": 31, "title": "Puseyite" },
+      { "scoreMin": 14, "scoreMax": 23, "title": "Laudian" },
+      { "scoreMin": 8, "scoreMax": 13, "title": "Liturgical" },
+      { "scoreMin": 4, "scoreMax": 7, "title": "Aesthetically-Minded" },
+      { "scoreMin": 0, "scoreMax": 3, "title": "Purely-Inclined" }
     ],
     "liberal": [
-      { "scoreMin": 38, "scoreMax": 45, "title": "Ultra-Liberal" },
-      { "scoreMin": 30, "scoreMax": 37, "title": "Theological Liberal" },
-      { "scoreMin": 22, "scoreMax": 29, "title": "Progressive" },
-      { "scoreMin": 13, "scoreMax": 21, "title": "Crypto-Liberal" },
-      { "scoreMin": 7, "scoreMax": 12, "title": "Innovative" },
-      { "scoreMin": 3, "scoreMax": 6, "title": "Open-Minded" },
-      { "scoreMin": 0, "scoreMax": 2, "title": "Purely-Inclined" }
+      { "scoreMin": 41, "scoreMax": 48, "title": "Ultra-Liberal" },
+      { "scoreMin": 32, "scoreMax": 40, "title": "Theological Liberal" },
+      { "scoreMin": 24, "scoreMax": 31, "title": "Progressive" },
+      { "scoreMin": 14, "scoreMax": 23, "title": "Crypto-Liberal" },
+      { "scoreMin": 8, "scoreMax": 13, "title": "Innovative" },
+      { "scoreMin": 4, "scoreMax": 7, "title": "Open-Minded" },
+      { "scoreMin": 0, "scoreMax": 3, "title": "Purely-Inclined" }
     ],
     "protestant": [
-      { "scoreMin": 38, "scoreMax": 45, "title": "Evangelical" },
-      { "scoreMin": 30, "scoreMax": 37, "title": "Low Churchman" },
-      { "scoreMin": 22, "scoreMax": 29, "title": "Old High Churchman" },
-      { "scoreMin": 13, "scoreMax": 21, "title": "Sola-Fide Enjoying" },
-      { "scoreMin": 7, "scoreMax": 12, "title": "Biblically Literate" },
-      { "scoreMin": 3, "scoreMax": 6, "title": "Reformed-Leaning" },
-      { "scoreMin": 0, "scoreMax": 2, "title": "Purely-Inclined" }
+      { "scoreMin": 41, "scoreMax": 48, "title": "Evangelical" },
+      { "scoreMin": 32, "scoreMax": 40, "title": "Low Churchman" },
+      { "scoreMin": 24, "scoreMax": 31, "title": "Old High Churchman" },
+      { "scoreMin": 14, "scoreMax": 23, "title": "Sola-Fide Enjoying" },
+      { "scoreMin": 8, "scoreMax": 13, "title": "Biblically Literate" },
+      { "scoreMin": 4, "scoreMax": 7, "title": "Reformed-Leaning" },
+      { "scoreMin": 0, "scoreMax": 3, "title": "Purely-Inclined" }
     ]
   },
   "gemini_prompt": {
-    "main": "Based on the following Anglican theological alignment scores (out of a total of 45), identify one significant historical Anglican figure (like a theologian, bishop, or key layperson) who embodies a similar balance of views.\n\nScores:\n- Catholic: {{catholic}}\n- Protestant: {{protestant}}\n- Liberal: {{liberal}}\n\nProvide the name of the figure and a brief, one-paragraph explanation (no more than 4 sentences) of why they are a good match, focusing on their historical context and theological contributions. Respond in {{language}}.",
+    "main": "Based on the following Anglican theological alignment scores (out of a total of 48), identify one significant historical Anglican figure (like a theologian, bishop, or key layperson) who embodies a similar balance of views.\n\nScores:\n- Catholic: {{catholic}}\n- Protestant: {{protestant}}\n- Liberal: {{liberal}}\n\nProvide the name of the figure and a brief, one-paragraph explanation (no more than 4 sentences) of why they are a good match, focusing on their historical context and theological contributions. Respond in {{language}}.",
     "language_name": "English"
   }
 }

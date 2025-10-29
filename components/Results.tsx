@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState, useMemo, useCallback } from 'react';
 import { getHistoricalFigure } from '../services/geminiService';
 import type { Scores, HistoricalFigure } from '../types';
@@ -57,29 +56,27 @@ const Results: React.FC<ResultsProps> = ({ scores, onRestart }) => {
     return t('results.adjective_title_template', { adjective, noun });
   }, [scores, getTitle, t]);
 
-  const handleShare = useCallback(async () => {
-    const shareText = t('results.share_text', { title: generatedTitle });
-    const shareUrl = window.location.href;
+  const handleTwitterShare = useCallback(() => {
+    const text = t('results.share_text', { title: generatedTitle });
+    const url = window.location.href;
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
+    window.open(twitterUrl, '_blank', 'noopener,noreferrer');
+  }, [t, generatedTitle]);
 
-    if (navigator.share) {
-      try {
-        await navigator.share({
-          title: t('results.share_title'),
-          text: shareText,
-          url: shareUrl,
-        });
-      } catch (error) {
-        console.log('Error sharing:', error);
-      }
-    } else {
-      // Fallback for browsers that don't support Web Share API
-      try {
-        await navigator.clipboard.writeText(`${shareText}\n${shareUrl}`);
-        setCopied(true);
-        setTimeout(() => setCopied(false), 2000);
-      } catch (err) {
-        console.error('Failed to copy text: ', err);
-      }
+  const handleFacebookShare = useCallback(() => {
+    const url = window.location.href;
+    const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+    window.open(facebookUrl, '_blank', 'noopener,noreferrer');
+  }, []);
+
+  const handleCopy = useCallback(async () => {
+    const textToCopy = t('results.copy_text', { title: generatedTitle, url: window.location.href });
+    try {
+      await navigator.clipboard.writeText(textToCopy);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy text: ', err);
     }
   }, [generatedTitle, t]);
 
@@ -122,19 +119,36 @@ const Results: React.FC<ResultsProps> = ({ scores, onRestart }) => {
         )}
       </div>
 
-      <div className="mt-8 flex flex-col sm:flex-row gap-4 no-print">
+      <div className="mt-8 flex flex-col items-center gap-6 w-full no-print">
         <button
           onClick={onRestart}
           className="px-8 py-3 bg-purple-600 text-white font-bold rounded-full hover:bg-purple-700 transition-colors duration-300 w-full sm:w-auto"
         >
           {t('results.take_again_button')}
         </button>
-        <button
-          onClick={handleShare}
-          className="px-8 py-3 bg-gray-700 text-white font-bold rounded-full hover:bg-gray-800 transition-colors duration-300 w-full sm:w-auto"
-        >
-          {copied ? t('results.copied_button') : t('results.share_button')}
-        </button>
+      
+        <div className="flex items-center justify-center gap-4">
+          <button
+            onClick={handleTwitterShare}
+            aria-label={t('results.share_on_twitter')}
+            className="p-3 bg-gray-200 rounded-full text-gray-700 hover:bg-gray-300 transition-colors"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </button>
+          <button
+            onClick={handleFacebookShare}
+            aria-label={t('results.share_on_facebook')}
+            className="p-3 bg-gray-200 rounded-full text-gray-700 hover:bg-gray-300 transition-colors"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+          </button>
+          <button
+            onClick={handleCopy}
+            className="px-6 py-3 bg-gray-700 text-white font-bold rounded-full hover:bg-gray-800 transition-colors duration-300 text-sm"
+          >
+            {copied ? t('results.copied_button') : t('results.copy_button')}
+          </button>
+        </div>
       </div>
     </div>
   );
