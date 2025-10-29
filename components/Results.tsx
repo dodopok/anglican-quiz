@@ -4,7 +4,6 @@ import type { Scores, HistoricalFigure } from '../types';
 import TernaryPlot from './TernaryPlot';
 import Spinner from './Spinner';
 import { useI18n } from '../hooks/useI18n';
-import { bookCoverBase64 } from '../assets/bookCover';
 
 interface ResultsProps {
   scores: Scores;
@@ -21,7 +20,7 @@ const BookAd: React.FC = () => {
         <div className="flex-shrink-0">
           <a href="https://loja.uiclap.com/titulo/ua123620" target="_blank" rel="noopener noreferrer">
             <img 
-              src={bookCoverBase64} 
+              src="/assets/book-cover.jpg" 
               alt={t('book_ad.alt_text')} 
               className="rounded-md shadow-lg w-32 md:w-40 h-auto transform hover:scale-105 transition-transform duration-300" 
             />
