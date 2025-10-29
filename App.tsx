@@ -1,16 +1,37 @@
 
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useMemo } from 'react';
 import type { Scores } from './types';
 import Quiz from './components/Quiz';
 import Results from './components/Results';
 import LanguageSwitcher from './components/LanguageSwitcher';
 import { useI18n } from './hooks/useI18n';
 
+// Fisher-Yates shuffle algorithm to randomize array elements
+function shuffleArray<T>(array: T[]): T[] {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+}
+
 function App() {
   const { t, questions, lang } = useI18n();
   const [scores, setScores] = useState<Scores>({ catholic: 0, liberal: 0, protestant: 0 });
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
+  const [quizAttempt, setQuizAttempt] = useState(0); // Used to trigger re-shuffle on restart
+
+  // Memoize the shuffled questions to prevent re-shuffling on every render.
+  // It re-shuffles when the language changes or when a new quiz is started.
+  const shuffledQuestions = useMemo(() => {
+    return questions.map(question => ({
+      ...question,
+      options: shuffleArray(question.options),
+    }));
+  }, [questions, quizAttempt]);
+
 
   const handleAnswer = useCallback((answerScores: Scores) => {
     setScores(prevScores => ({
@@ -30,6 +51,7 @@ function App() {
     setScores({ catholic: 0, liberal: 0, protestant: 0 });
     setCurrentQuestionIndex(0);
     setQuizCompleted(false);
+    setQuizAttempt(prev => prev + 1); // Trigger a re-shuffle for the new quiz
   }, []);
 
   return (
@@ -45,7 +67,7 @@ function App() {
             <Results scores={scores} onRestart={handleRestart} />
           ) : (
             <Quiz
-              question={questions[currentQuestionIndex]}
+              question={shuffledQuestions[currentQuestionIndex]}
               onAnswer={handleAnswer}
               questionNumber={currentQuestionIndex + 1}
               totalQuestions={questions.length}
