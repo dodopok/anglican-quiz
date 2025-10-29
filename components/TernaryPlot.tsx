@@ -1,4 +1,3 @@
-
 import React from 'react';
 import type { Scores } from '../types';
 import { useI18n } from '../hooks/useI18n';
@@ -30,7 +29,7 @@ const TernaryPlot: React.FC<TernaryPlotProps> = ({ scores }) => {
   
   return (
     <div className="flex flex-col items-center">
-      <svg viewBox={`-20 -20 ${width + 40} ${height + 40}`} className="w-full h-auto max-w-sm">
+      <svg viewBox={`-50 -30 ${width + 100} ${height + 70}`} className="w-full h-auto max-w-sm">
         <defs>
             <linearGradient id="red-to-mix" x1="0.5" y1="0" x2="0.5" y2="1">
               <stop offset="0%" stopColor="#ef4444" />
@@ -62,13 +61,13 @@ const TernaryPlot: React.FC<TernaryPlotProps> = ({ scores }) => {
 
         <circle cx={cx} cy={cy} r="6" className="fill-gray-900" stroke="white" strokeWidth="2" />
 
-        <text x={vertices.red.x} y={-8} textAnchor="middle" className="font-bold text-sm fill-red-600">
+        <text x={vertices.red.x} y={-12} textAnchor="middle" className="font-bold text-sm fill-red-600">
             {t('ternary_plot.catholic')}
         </text>
-        <text x={vertices.blue.x - 8} y={height + 15} textAnchor="end" className="font-bold text-sm fill-blue-600">
+        <text x={vertices.blue.x - 12} y={height + 20} textAnchor="end" className="font-bold text-sm fill-blue-600">
             {t('ternary_plot.protestant')}
         </text>
-        <text x={vertices.yellow.x + 8} y={height + 15} textAnchor="start" className="font-bold text-sm fill-yellow-600">
+        <text x={vertices.yellow.x + 12} y={height + 20} textAnchor="start" className="font-bold text-sm fill-yellow-600">
             {t('ternary_plot.liberal')}
         </text>
       </svg>
