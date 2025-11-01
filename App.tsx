@@ -97,10 +97,7 @@ function App() {
           )}
         </main>
       </div>
-       <footer className="text-center mt-6 text-gray-500 text-sm no-print">
-        <p>{t('app_footer')}</p>
-      </footer>
-      <div className="text-center mt-2 text-gray-500 text-xs no-print">
+       <footer className="text-center mt-6 text-gray-500 text-md weight-700 font-semibold">
         <a 
           href="https://www.instagram.com/rev_douglasaraujo/" 
           target="_blank" 
@@ -109,7 +106,7 @@ function App() {
         >
           {t('creator_credit')}
         </a>
-      </div>
+      </footer>
       <Analytics/>
     </div>
   );
