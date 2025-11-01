@@ -27,7 +27,7 @@
         "options": [
           { "text": "A Presença Real do Corpo e Sangue de Cristo.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
           { "text": "Uma refeição comunitária simbolizando comunhão e inclusão.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
-          { "text": "Um memorial do sacrifício expiatório de Cristo (Zwingliano).", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "Um memorial do sacrifício expiatório de Cristo.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "Uma presença espiritual, um mistério a ser abraçado.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
           { "text": "Uma verdadeira presença espiritual de Cristo, recebida pela fé (visão 'recepcionista').", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
           { "text": "Uma antecipação do banquete celestial, um sinal de esperança futura.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }

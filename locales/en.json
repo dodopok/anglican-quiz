@@ -28,7 +28,7 @@
         "options": [
           { "text": "The Real Presence of Christ's Body and Blood.", "scores": { "catholic": 3, "liberal": 0, "protestant": 0 } },
           { "text": "A communal meal symbolizing fellowship and inclusion.", "scores": { "catholic": 0, "liberal": 3, "protestant": 0 } },
-          { "text": "A memorial of Christ's atoning sacrifice (Zwinglian).", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
+          { "text": "A memorial of Christ's atoning sacrifice.", "scores": { "catholic": 0, "liberal": 0, "protestant": 3 } },
           { "text": "A spiritual presence, a mystery to be embraced.", "scores": { "catholic": 1, "liberal": 1, "protestant": 1 } },
           { "text": "A true spiritual presence of Christ, received by faith (a 'receptionist' view).", "scores": { "catholic": 2, "liberal": 0, "protestant": 1 } },
           { "text": "A foretaste of the heavenly banquet, a sign of future hope.", "scores": { "catholic": 1, "liberal": 2, "protestant": 0 } }
