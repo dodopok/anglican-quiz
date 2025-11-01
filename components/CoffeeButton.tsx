@@ -25,8 +25,9 @@ const CoffeeButton: React.FC<CoffeeButtonProps> = ({ className = '' }) => {
       const data = await response.json();
 
       if (data.url) {
-        // Redirecionar para o checkout do Stripe
-        window.location.href = data.url;
+        // Abrir o checkout do Stripe em uma nova aba
+        window.open(data.url, '_blank', 'noopener,noreferrer');
+        setIsLoading(false);
       } else {
         throw new Error('No checkout URL returned');
       }
