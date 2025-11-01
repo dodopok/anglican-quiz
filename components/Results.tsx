@@ -1,9 +1,10 @@
-import React, { useEffect, useState, useMemo, useCallback } from 'react';
+import React, { useEffect, useState, useMemo, useCallback, useRef } from 'react';
 import { getHistoricalFigure } from '../services/geminiService';
 import type { Scores, HistoricalFigure } from '../types';
 import TernaryPlot from './TernaryPlot';
 import Spinner from './Spinner';
 import { useI18n } from '../hooks/useI18n';
+import CoffeeButton from './CoffeeButton';
 
 interface ResultsProps {
   scores: Scores;
@@ -179,6 +180,11 @@ const Results: React.FC<ResultsProps> = ({ scores, onRestart }) => {
       {lang === 'pt' && <BookAd />}
 
       <div className="mt-8 flex flex-col items-center gap-6 w-full no-print">
+        {/* Coffee Button */}
+        <div className="w-full border-t border-gray-200 pt-6">
+          <CoffeeButton className="w-full" />
+        </div>
+        
         <button
           onClick={onRestart}
           className="px-8 py-3 bg-purple-600 text-white font-bold rounded-full hover:bg-purple-700 transition-colors duration-300 w-full sm:w-auto"

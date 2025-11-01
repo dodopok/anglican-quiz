@@ -14,7 +14,17 @@ View your app in AI Studio: https://ai.studio/apps/drive/1upWegry6AdafJmYOK6UOTZ
 
 
 1. Install dependencies:
-   `npm install`
+   `npm install` or `pnpm install`
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3. Set the `STRIPE_SECRET_KEY` in [.env.local](.env.local) to your Stripe secret key
+4. Run the app:
+   `npm run dev` or `pnpm run dev`
+
+## Deploy to Vercel
+
+When deploying to Vercel, make sure to add the following environment variables in your Vercel project settings:
+
+- `GEMINI_API_KEY`: Your Gemini API key
+- `STRIPE_SECRET_KEY`: Your Stripe secret key (starts with `sk_live_...`)
+
+Go to your Vercel project → Settings → Environment Variables to add these.
