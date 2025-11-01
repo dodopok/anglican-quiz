@@ -180,7 +180,6 @@ const Results: React.FC<ResultsProps> = ({ scores, onRestart }) => {
       {lang === 'pt' && <BookAd />}
 
       <div className="mt-8 flex flex-col items-center gap-6 w-full no-print">
-        {/* Coffee Button */}
         <div className="w-full border-t border-gray-200 pt-6">
           <CoffeeButton className="w-full" />
         </div>
