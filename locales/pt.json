@@ -230,8 +230,14 @@
     "button_ebook": "Comprar E-book",
     "alt_text": "Capa do livro O Caminho Anglicano"
   },
+  "coffee": {
+    "amount_label": "Valor:",
+    "button": "Me pague um café",
+    "button_loading": "Processando...",
+    "description": "Apoie o criador com um cafézinho!"
+  },
   "ternary_plot": {
-    "catholic": "Católico",
+    "católico": "Católico",
     "liberal": "Liberal",
     "protestant": "Protestante"
   },

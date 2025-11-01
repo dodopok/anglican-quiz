@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { useI18n } from '../hooks/useI18n';
 
 interface CoffeeButtonProps {
   className?: string;
 }
 
 const CoffeeButton: React.FC<CoffeeButtonProps> = ({ className = '' }) => {
+  const { t } = useI18n();
   const [amount, setAmount] = useState(2);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -38,7 +40,7 @@ const CoffeeButton: React.FC<CoffeeButtonProps> = ({ className = '' }) => {
   return (
     <div className={`flex flex-col items-center gap-3 ${className}`}>
       <div className="flex items-center gap-2">
-        <label htmlFor="coffee-amount" className="text-sm text-gray-600">Amount:</label>
+        <label htmlFor="coffee-amount" className="text-sm text-gray-600">{t('coffee.amount_label')}</label>
         <div className="flex items-center gap-1">
           <span className="text-sm">$</span>
           <input
@@ -60,10 +62,10 @@ const CoffeeButton: React.FC<CoffeeButtonProps> = ({ className = '' }) => {
         className="flex items-center gap-2 px-6 py-2 bg-yellow-500 hover:bg-yellow-600 disabled:bg-gray-400 text-white font-semibold rounded-full transition-colors duration-200 shadow-md hover:shadow-lg"
       >
         <span className="text-xl">☕</span>
-        {isLoading ? 'Processing...' : 'Buy me a coffee'}
+        {isLoading ? t('coffee.button_loading') : t('coffee.button')}
       </button>
       <p className="text-xs text-gray-500 text-center max-w-xs">
-        Support the creator with a coffee tip!
+        {t('coffee.description')}
       </p>
     </div>
   );

@@ -224,6 +224,12 @@
     "share_text": "I took the Anglican Spectrum Test and I'm a \"{{title}}\"! Find out your theological alignment:",
     "copy_text": "I took the Anglican Spectrum Test and I'm a \"{{title}}\"! Find out your theological alignment: {{url}}"
   },
+  "coffee": {
+    "amount_label": "Amount:",
+    "button": "Buy me a coffee",
+    "button_loading": "Processing...",
+    "description": "Support the creator with a coffee tip!"
+  },
   "ternary_plot": {
     "catholic": "Catholic",
     "liberal": "Liberal",
